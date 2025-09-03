@@ -1,20 +1,54 @@
 <!DOCTYPE html>
+
 <html lang="pt-br">
 
-    <head>
+<head>
 
-        <meta charset="UTF-8">
+    <meta charset="UTF-8">
 
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Exemplo de iFrame e Cruzadas</title>
 
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+<body>
 
-        <title>Iframe e as Crusadas</title>
+    <article>
 
-    </head>
+        <h2>O que é um iFrame</h2>
 
-    <body>
-        
+        Os iFrames são como janelas interativas que permite com que você adicione um site dentro de sua própria página.
+         E deixa com que você interaja livremente com a página adicionada.Ele funciona como um espaço reservado dentro 
+        da sua página que pode exibir outro conteúdo, seja um site inteiro, um vídeo, um mapa, um documento ou até mesmo 
+        outro arquivo HTML que você criou.
 
+        Na prática, isso significa que ao usar um iframe você não precisa copiar ou reescrever o conteúdo que deseja
+        mostrar, basta apontar o endereço dele no atributo src da tag &lt;iframe&gt;, e ele aparecerá dentro da sua página.
+         É muito comum, por exemplo, ver vídeos do YouTube, mapas do Google Maps ou formulários do Google Forms incorporados
+        em sites por meio de iframes.
 
-    </body>
+        Apesar de ser bastante útil, há uma limitação: nem todos os sites permitem ser exibidos em iframes, por questões
+        de segurança. Além disso, o iframe pode ser personalizado, tanto em tamanho quanto em aparência, usando atributos
+        como width e height ou mesmo estilizações com CSS.
+
+        <h2>Algumas propriedades úteis</h2>
+
+        <li>frameborder="0" -&gt; remove a borda.</li>
+        <li>allowfullscreen -&gt; permite tela cheia (em vídeos).</li>
+        <li>loading="lazy" -&gt; carrega o iframe apenas quando aparece na tela (melhora desempenho)</li>
+        <li>sandbox -&gt; restringe o conteúdo para segurança (por exemplo: sandbox="allow-scripts").</li>
+
+    </article>
+
+    <h2>Site dentro de um iFrame</h2>
+
+    <iframe src="https://brasilescola.uol.com.br/historiag/cruzadas.htm" width="100%" height="500"></iframe>
+
+    <h2>Exemplo que usa: allowfullscreen, loading="lazy" e frameborder="0".</h2>
+
+    <iframe 
+    src="https://www.youtube.com/embed/gweX6g1VnWA?autoplay=1" 
+    width="800" height="500" frameborder="0" allowfullscreen="" loading="lazy">
+  </iframe>
+
+</body>
+
+</html>
