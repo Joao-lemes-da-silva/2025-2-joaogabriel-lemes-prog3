@@ -1,0 +1,75 @@
+/*seletores de tipo*/
+/*seletores de classe*/
+/*seletores de ID*/
+/*seletores de atributos*/
+/*seletores combinadores*/
+/*seletores de pseudoclasse*/
+/*seletores de pseudoelemento*/
+/*seletores universais*/
+
+/*serão trabalhadas duas formas distintas de seletores:
+definição e emplementação.
+chamado de seletor*/
+
+/*Elementos HTML que se aplica o CSS:
+body, p, article, aside, etc...*/
+
+/*selecionam todos os elementos de um determinado tipo*/
+p{
+    color: blue;
+}
+
+/*Sintaxe:
+O seletor de classe seleciona elementos HTML com um atributo de classe especifica.
+
+para selecionar elementos com uma classe especifica , escreva um caractere de período (.), seguindo pelo nome da classe.
+*/
+
+.nome-classe {
+
+    font-weight: bold;
+
+}
+
+/*Seletor de ID - sintaxe
+O seletor id usa o atributo id de um elemento HTML para selecionar um elemento específico;
+
+O id de um elemento é único dentro de uma pagina, de */
+
+#nome-classe{
+
+    text-align: center;
+
+    color: red;
+
+}
+
+/*seletores de atributos - sintaxe
+Os seletores de atributo visam elementos com base em seus atributos com base em seus atributos e valores de atributos.*/
+
+input[type = "text"]{
+    border-color: darkblue;
+}
+
+/*seletores de pseudoclasse - sintaxe
+permite estilizar elementos com base em seu estado ou condição, como :hover*/
+
+/*seletores de pseudoelemento - sintaxe
+Utilizado para estilizar partes específicas de um elemento, como a primeira linha ou a primeira letra.*/
+
+p::first-letter{
+
+    font-size: 200%;
+
+}
+
+/*seletores universais - sintaxe
+O seletor unuversal é útil para explicar um estilo a todos os elementos dentro de um contexto específico.*/
+
+*{
+
+    box-sizing: border-box;
+
+}
+
+/*<link rel="stylesheet" href="../../CSS/lista_html/lista_html.css">*/
