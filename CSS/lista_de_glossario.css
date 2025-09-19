@@ -1,0 +1,37 @@
+/*Exercício 1 – Seletor de Tipo
+● Altere a cor de todos os títulos <h1> para azul.
+● Altere a cor de todos os subtítulos <h2> para verde.
+Exercício 2 – Seletor de Classe
+1. Adicione a classe termo a todos os elementos <dt>.
+2. Crie uma regra CSS para que os termos apareçam em negrito e em vermelho.
+Exercício 3 – Seletor de ID
+1. Adicione o atributo id="introducao" no <h2>.
+2. Estilize o título de introdução para que fique em itálico e com fundo cinza claro.
+Exercício 4 – Seletor Descendente
+● Altere a cor de todos os <dd> que estão dentro da <section> para azul-escuro.
+Exercício 5 – Seletor de Atributo
+Dentro do texto de DNS, insira um link fictício:
+<a href="https://www.exemplo.com">www.exemplo.com</a>
+1. Crie uma regra CSS que altere a cor de todos os links (a[href]) para laranja e
+remova o sublinhado.
+Exercício 6 – Pseudo-classes
+● Faça com que os links mudem de cor para roxo quando o usuário passar o mouse
+(hover).*/
+
+h1{
+
+    color: blue;
+
+}
+h2{
+
+    color: green;
+
+}
+
+dt.termo{
+    
+    font-weight: bold;  
+    color: red;         
+    
+}
