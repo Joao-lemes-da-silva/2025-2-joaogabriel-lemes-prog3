@@ -1,0 +1,56 @@
+/*Obs.: página “listas.html”
+Exercício 1 – Seletor de Tipo
+1. Aplique um estilo diferente para todos os elementos <li> da lista:
+○ Cor do texto em azul.
+○ Fonte em itálico.
+Exercício 2 – Seletor de Classe
+1. Adicione a classe destaque ao item "Carne" na lista.
+2. Crie uma regra CSS que aplique:
+○ Cor vermelha.
+○ Negrito.
+Exercício 3 – Seletor de ID
+1. Atribua o ID titulo-principal ao elemento <h1>.
+2. Crie um estilo para esse título:
+○ Cor verde escura.
+○ Texto centralizado.
+○ Tamanho da fonte maior.
+Exercício 4 – Seletor Descendente
+1. Estilize apenas os itens da lista (<li>) que estão dentro da <section>.
+○ Defina uma cor de fundo clara.
+○ Adicione espaçamento interno (padding).
+Exercício 5 – Seletor de Atributo
+No elemento <header>, adicione um atributo fictício:
+<header data-info="cabecalho">Lista de compras do supermercado ifsc</header>
+1.
+2. Crie uma regra CSS para selecionar esse elemento pelo atributo data-info:
+○ Cor de fundo cinza.
+○ Texto branco.
+Exercício 6 – Pseudo-classes
+1. Faça com que os itens da lista <li> mudem de cor quando o usuário passar o
+mouse por cima (:hover).
+○ Nova cor: laranja.
+Exercício 7 – Pseudo-elementos
+1. Adicione um pseudo-elemento ::before a cada <li>, inserindo um emoji de
+carrinho de compras 🛒 antes do texto.
+2. Estilize esse emoji para ficar em cinza.*/
+
+li{
+
+    color: blue;
+    font-style: italic;
+
+}
+
+li.carne{
+
+    color: red;
+    font-weight: bold;
+
+}
+section li{
+
+    background-color: aquamarine;
+    padding: 1.5em;
+
+}
+header

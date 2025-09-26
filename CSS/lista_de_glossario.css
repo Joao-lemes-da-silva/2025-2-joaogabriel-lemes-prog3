@@ -16,7 +16,13 @@ Dentro do texto de DNS, insira um link fictício:
 remova o sublinhado.
 Exercício 6 – Pseudo-classes
 ● Faça com que os links mudem de cor para roxo quando o usuário passar o mouse
-(hover).*/
+(hover).
+Exercício 7 – Pseudo-elementos
+Use ::first-letter para deixar a primeira letra de cada <dd> em
+tamanho maior e cor diferente.
+Exercício 8 – Agrupamento de Seletores
+● Faça com que todos os <dt> e <dd> tenham espaçamento entre linhas
+(line-height) de 1.6.*/
 
 h1{
 
@@ -33,5 +39,40 @@ dt.termo{
     
     font-weight: bold;  
     color: red;         
+    
+}
+
+#introdução {
+
+    font-style: italic;
+    background-color: lightgrey;
+
+}
+
+section dd{
+
+    color: darkblue;
+
+}
+
+a[href]{
+
+    color: orange;
+    text-decoration: none;
+}
+a:hover{
+
+    color: purple;
+
+}
+dd::first-letter{
+
+    font-size: 1.5em;
+    color: darkslateblue;
+
+}
+dt, dd{
+
+    line-height: 1.6;
     
 }
